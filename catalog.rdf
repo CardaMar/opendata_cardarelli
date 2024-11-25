@@ -1,0 +1,650 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+  <rdf:RDF xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:locn="http://www.w3.org/ns/locn#" xmlns:hydra="http://www.w3.org/ns/hydra/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dct="http://purl.org/dc/terms/" xmlns:dcatapit="http://dati.gov.it/onto/dcatapit#" xmlns:vcard="http://www.w3.org/2006/vcard/ns#" xmlns:adms="http://www.w3.org/ns/adms#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+
+
+<dcatapit:Catalog rdf:about="https://aocardarelli.portaleamministrazionetrasparente.it/">
+  <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Catalog"/>
+  <dct:title>AORN Antonio Cardarelli</dct:title>
+  <dct:publisher>
+    <dcatapit:Agent rdf:about="AORN_063">
+      <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+      <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+      <dct:identifier>AORN_063</dct:identifier>
+      <foaf:name>AORN Antonio Cardarelli - Gruppo Open Data</foaf:name>
+    </dcatapit:Agent>
+  </dct:publisher>
+  <dct:description>Il catalogo dei dati aperti dell'AORN Antonio Cardarelli offre accesso a dataset su attività e servizi ospedalieri, promuovendo trasparenza e innovazione nel settore sanitario.</dct:description>
+  <dct:language>it</dct:language>
+  <foaf:homepage rdf:resource="https://aocardarelli.portaleamministrazionetrasparente.it/#"/>
+  <dcat:themeTaxonomy>
+    <skos:ConceptScheme rdf:about="http://publications.europa.eu/resource/authority/data-theme">
+      <dct:title>Data Theme Vocabulary</dct:title>
+    </skos:ConceptScheme>
+  </dcat:themeTaxonomy>
+  <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-11-25</dct:modified>
+  <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-11-25</dct:issued>
+  <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+  <dcat:dataset rdf:resource="https://aocardarelli.portaleamministrazionetrasparente.it//bandi-di-concorso"/>
+  <dcat:dataset rdf:resource="https://aocardarelli.portaleamministrazionetrasparente.it//bandi-di-concorso-avvisi"/>
+  <dcat:dataset rdf:resource="https://aocardarelli.portaleamministrazionetrasparente.it//bandi-di-concorso-esiti"/>
+  <dcat:dataset rdf:resource="https://aocardarelli.portaleamministrazionetrasparente.it//bilancio-preventivo-e-consuntivo"/>
+  <dcat:dataset rdf:resource="https://aocardarelli.portaleamministrazionetrasparente.it//concorsi-attivi"/>
+  <dcat:dataset rdf:resource="https://aocardarelli.portaleamministrazionetrasparente.it//concorsi-scaduti"/>
+  <dcat:dataset rdf:resource="https://aocardarelli.portaleamministrazionetrasparente.it//incarichi-conferiti-e-autorizzati-ai-dipendenti-dirigenti-e-non-dirigenti"/>
+  <dcat:dataset rdf:resource="https://aocardarelli.portaleamministrazionetrasparente.it//patrimonio-immobiliare"/>
+  <dcat:dataset rdf:resource="https://aocardarelli.portaleamministrazionetrasparente.it//titolari-di-incarichi-dirigenziali-amministrativi-di-vertice"/>
+  <dcat:dataset rdf:resource="https://aocardarelli.portaleamministrazionetrasparente.it//regolamenti"/>
+  </dcatapit:Catalog>
+  <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/ECON">
+    <skos:prefLabel>Economia e finanze</skos:prefLabel>
+  </skos:Concept>
+  <dcatapit:Dataset rdf:about="https://aocardarelli.portaleamministrazionetrasparente.it//bandi-di-concorso">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
+    <dct:license/>
+    <dct:title>bandi di concorso</dct:title>
+    <dcat:landingPage rdf:resource="https://aocardarelli.portaleamministrazionetrasparente.it/pagina639:bandi-di-concorso.html/"/>
+    <dct:description>Dataset dedicato ai bandi di concorso dell'AORN Cardarelli, con informazioni su concorsi attivi, graduatorie e criteri di selezione per il reclutamento di personale.</dct:description>
+    <dct:identifier>AORN_063:bandi-di-concorso</dct:identifier>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/DAILY"/>
+    <dcat:contactPoint rdf:resource="https://www.ospedalecardarelli.it/"/>
+    <dct:rightsHolder>
+      <dcatapit:Agent rdf:about="AORN_063">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>AORN_063</dct:identifier>
+        <foaf:name>AORN Antonio Cardarelli</foaf:name>
+      </dcatapit:Agent>
+    </dct:rightsHolder>
+    <dct:publisher>
+      <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>AORN_063</dct:identifier>
+        <foaf:name>AORN Antonio Cardarelli</foaf:name>
+      </dcatapit:Agent>
+    </dct:publisher>
+    <dct:subject>
+      <skos:Concept rdf:about="http://eurovoc.europa.eu/100229">
+        <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#subTheme"/>
+        <skos:prefLabel xml:lang="it">4021 gestione amministrativa</skos:prefLabel>
+      </skos:Concept>
+    </dct:subject>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-11-25</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-11-25</dct:issued>
+    <dcat:contactPoint rdf:resource="https://www.ospedalecardarelli.it/"/>
+    <dcat:keyword>Concorsi pubblici</dcat:keyword>
+    <dcat:keyword>Reclutamento personale</dcat:keyword>
+    <dcat:keyword>Trasparenza amministrativa</dcat:keyword>
+    <dcat:distribution rdf:resource="https://aocardarelli.portaleamministrazionetrasparente.it//bandi-di-concorso/csv2"/>
+  </dcatapit:Dataset>
+  <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/ECON">
+    <skos:prefLabel>Economia e finanze</skos:prefLabel>
+  </skos:Concept>
+  <dcatapit:Dataset rdf:about="https://aocardarelli.portaleamministrazionetrasparente.it//bandi-di-concorso-avvisi">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
+    <dct:license/>
+    <dct:title>bandi di concorso avvisi</dct:title>
+    <dcat:landingPage rdf:resource="https://aocardarelli.portaleamministrazionetrasparente.it/pagina806:avvisi.html/"/>
+    <dct:description>Avvisi pubblici e bandi di concorso per il reclutamento di personale sanitario e amministrativo presso l'AORN Cardarelli, con dettagli su requisiti, modalità di partecipazione e scadenze.</dct:description>
+    <dct:identifier>AORN_063:bandi-di-concorso-avvisi</dct:identifier>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/DAILY"/>
+    <dcat:contactPoint rdf:resource="https://www.ospedalecardarelli.it/"/>
+    <dct:rightsHolder>
+      <dcatapit:Agent rdf:about="AORN_063">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>AORN_063</dct:identifier>
+        <foaf:name>AORN Antonio Cardarelli</foaf:name>
+      </dcatapit:Agent>
+    </dct:rightsHolder>
+    <dct:publisher>
+      <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>AORN_063</dct:identifier>
+        <foaf:name>AORN Antonio Cardarelli</foaf:name>
+      </dcatapit:Agent>
+    </dct:publisher>
+    <dct:subject>
+      <skos:Concept rdf:about="http://eurovoc.europa.eu/100229">
+        <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#subTheme"/>
+        <skos:prefLabel xml:lang="it">4021 gestione amministrativa</skos:prefLabel>
+      </skos:Concept>
+    </dct:subject>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-11-25</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-11-25</dct:issued>
+    <dcat:contactPoint rdf:resource="https://www.ospedalecardarelli.it/"/>
+    <dcat:keyword>Avvisi pubblici</dcat:keyword>
+    <dcat:keyword>Bandi di concorso</dcat:keyword>
+    <dcat:keyword>Reclutamento</dcat:keyword>
+    <dcat:distribution rdf:resource="https://aocardarelli.portaleamministrazionetrasparente.it//bandi-di-concorso-avvisi/csv3"/>
+  </dcatapit:Dataset>
+  <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/ECON">
+    <skos:prefLabel>Economia e finanze</skos:prefLabel>
+  </skos:Concept>
+  <dcatapit:Dataset rdf:about="https://aocardarelli.portaleamministrazionetrasparente.it//bandi-di-concorso-esiti">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
+    <dct:license/>
+    <dct:title>bandi di concorso esiti</dct:title>
+    <dcat:landingPage rdf:resource="https://aocardarelli.portaleamministrazionetrasparente.it/pagina807:esiti.html/"/>
+    <dct:description>Esiti dei bandi di concorso dell'AORN Cardarelli, comprendenti graduatorie finali, elenchi degli idonei e vincitori, nonché eventuali scorrimenti delle liste.</dct:description>
+    <dct:identifier>AORN_063:bandi-di-concorso-esiti</dct:identifier>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/DAILY"/>
+    <dcat:contactPoint rdf:resource="https://www.ospedalecardarelli.it/"/>
+    <dct:rightsHolder>
+      <dcatapit:Agent rdf:about="AORN_063">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>AORN_063</dct:identifier>
+        <foaf:name>AORN Antonio Cardarelli</foaf:name>
+      </dcatapit:Agent>
+    </dct:rightsHolder>
+    <dct:publisher>
+      <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>AORN_063</dct:identifier>
+        <foaf:name>AORN Antonio Cardarelli</foaf:name>
+      </dcatapit:Agent>
+    </dct:publisher>
+    <dct:subject>
+      <skos:Concept rdf:about="http://eurovoc.europa.eu/100229">
+        <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#subTheme"/>
+        <skos:prefLabel xml:lang="it">4021 gestione amministrativa</skos:prefLabel>
+      </skos:Concept>
+    </dct:subject>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-11-25</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-11-25</dct:issued>
+    <dcat:contactPoint rdf:resource="https://www.ospedalecardarelli.it/"/>
+    <dcat:keyword>Esiti concorsi</dcat:keyword>
+    <dcat:keyword>Graduatorie finali</dcat:keyword>
+    <dcat:keyword>Reclutamento personale</dcat:keyword>
+    <dcat:distribution rdf:resource="https://aocardarelli.portaleamministrazionetrasparente.it//bandi-di-concorso-esiti/csv4"/>
+  </dcatapit:Dataset>
+  <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/ECON">
+    <skos:prefLabel>Economia e finanze</skos:prefLabel>
+  </skos:Concept>
+  <dcatapit:Dataset rdf:about="https://aocardarelli.portaleamministrazionetrasparente.it//bilancio-preventivo-e-consuntivo">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
+    <dct:license/>
+    <dct:title>bilancio preventivo e consuntivo</dct:title>
+    <dcat:landingPage rdf:resource="https://aocardarelli.portaleamministrazionetrasparente.it/pagina731:bilancio-preventivo-e-consuntivo.html/"/>
+    <dct:description>Bilanci preventivi e consuntivi dell'AORN Cardarelli, con previsioni e risultati finanziari, per la trasparenza nella gestione economica.</dct:description>
+    <dct:identifier>AORN_063:bilancio-preventivo-e-consuntivo</dct:identifier>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/ANNUAL"/>
+    <dcat:contactPoint rdf:resource="https://www.ospedalecardarelli.it/"/>
+    <dct:rightsHolder>
+      <dcatapit:Agent rdf:about="AORN_063">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>AORN_063</dct:identifier>
+        <foaf:name>AORN Antonio Cardarelli</foaf:name>
+      </dcatapit:Agent>
+    </dct:rightsHolder>
+    <dct:publisher>
+      <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>AORN_063</dct:identifier>
+        <foaf:name>AORN Antonio Cardarelli</foaf:name>
+      </dcatapit:Agent>
+    </dct:publisher>
+    <dct:subject>
+      <skos:Concept rdf:about="http://eurovoc.europa.eu/100204">
+        <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#subTheme"/>
+        <skos:prefLabel xml:lang="it">2436 finanze pubbliche e politica di bilancio</skos:prefLabel>
+      </skos:Concept>
+    </dct:subject>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-11-25</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-11-25</dct:issued>
+    <dcat:contactPoint rdf:resource="https://www.ospedalecardarelli.it/"/>
+    <dcat:keyword>Bilancio preventivo</dcat:keyword>
+    <dcat:keyword>Bilancio consuntivo</dcat:keyword>
+    <dcat:keyword>Gestione finanziaria</dcat:keyword>
+    <dcat:distribution rdf:resource="https://aocardarelli.portaleamministrazionetrasparente.it//bilancio-preventivo-e-consuntivo/csv5"/>
+  </dcatapit:Dataset>
+  <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/ECON">
+    <skos:prefLabel>Economia e finanze</skos:prefLabel>
+  </skos:Concept>
+  <dcatapit:Dataset rdf:about="https://aocardarelli.portaleamministrazionetrasparente.it//concorsi-attivi">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
+    <dct:license/>
+    <dct:title>concorsi attivi</dct:title>
+    <dcat:landingPage rdf:resource="https://aocardarelli.portaleamministrazionetrasparente.it/pagina640:concorsi-attivi.html/"/>
+    <dct:description>Concorsi attivi per l'assunzione di personale sanitario e amministrativo presso l'AORN Cardarelli, con informazioni su requisiti e modalità di partecipazione.</dct:description>
+    <dct:identifier>AORN_063:concorsi-attivi</dct:identifier>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/DAILY"/>
+    <dcat:contactPoint rdf:resource="https://www.ospedalecardarelli.it/"/>
+    <dct:rightsHolder>
+      <dcatapit:Agent rdf:about="AORN_063">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>AORN_063</dct:identifier>
+        <foaf:name>AORN Antonio Cardarelli</foaf:name>
+      </dcatapit:Agent>
+    </dct:rightsHolder>
+    <dct:publisher>
+      <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>AORN_063</dct:identifier>
+        <foaf:name>AORN Antonio Cardarelli</foaf:name>
+      </dcatapit:Agent>
+    </dct:publisher>
+    <dct:subject>
+      <skos:Concept rdf:about="http://eurovoc.europa.eu/100229">
+        <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#subTheme"/>
+        <skos:prefLabel xml:lang="it">4021 gestione amministrativa</skos:prefLabel>
+      </skos:Concept>
+    </dct:subject>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-11-25</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-11-25</dct:issued>
+    <dcat:contactPoint rdf:resource="https://www.ospedalecardarelli.it/"/>
+    <dcat:keyword>Concorsi attivi</dcat:keyword>
+    <dcat:keyword>Reclutamento personale</dcat:keyword>
+    <dcat:keyword>Posizioni lavorative</dcat:keyword>
+    <dcat:distribution rdf:resource="https://aocardarelli.portaleamministrazionetrasparente.it//concorsi-attivi/csv6"/>
+  </dcatapit:Dataset>
+  <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/ECON">
+    <skos:prefLabel>Economia e finanze</skos:prefLabel>
+  </skos:Concept>
+  <dcatapit:Dataset rdf:about="https://aocardarelli.portaleamministrazionetrasparente.it//concorsi-scaduti">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
+    <dct:license/>
+    <dct:title>concorsi scaduti</dct:title>
+    <dcat:landingPage rdf:resource="https://aocardarelli.portaleamministrazionetrasparente.it/pagina641:concorsi-scaduti.html/"/>
+    <dct:description>Concorsi scaduti per il reclutamento di personale sanitario e tecnico presso l'AORN Cardarelli, con esiti e graduatorie disponibili.</dct:description>
+    <dct:identifier>AORN_063:concorsi-scaduti</dct:identifier>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/DAILY"/>
+    <dcat:contactPoint rdf:resource="https://www.ospedalecardarelli.it/"/>
+    <dct:rightsHolder>
+      <dcatapit:Agent rdf:about="AORN_063">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>AORN_063</dct:identifier>
+        <foaf:name>AORN Antonio Cardarelli</foaf:name>
+      </dcatapit:Agent>
+    </dct:rightsHolder>
+    <dct:publisher>
+      <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>AORN_063</dct:identifier>
+        <foaf:name>AORN Antonio Cardarelli</foaf:name>
+      </dcatapit:Agent>
+    </dct:publisher>
+    <dct:subject>
+      <skos:Concept rdf:about="http://eurovoc.europa.eu/100229">
+        <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#subTheme"/>
+        <skos:prefLabel xml:lang="it">4021 gestione amministrativa</skos:prefLabel>
+      </skos:Concept>
+    </dct:subject>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-11-25</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-11-25</dct:issued>
+    <dcat:contactPoint rdf:resource="https://www.ospedalecardarelli.it/"/>
+    <dcat:keyword>Concorsi scaduti</dcat:keyword>
+    <dcat:keyword>Reclutamento personale</dcat:keyword>
+    <dcat:keyword>Graduatorie</dcat:keyword>
+    <dcat:distribution rdf:resource="https://aocardarelli.portaleamministrazionetrasparente.it//concorsi-scaduti/csv7"/>
+  </dcatapit:Dataset>
+  <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/ECON">
+    <skos:prefLabel>Economia e finanze</skos:prefLabel>
+  </skos:Concept>
+  <dcatapit:Dataset rdf:about="https://aocardarelli.portaleamministrazionetrasparente.it//incarichi-conferiti-e-autorizzati-ai-dipendenti-dirigenti-e-non-dirigenti">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
+    <dct:license/>
+    <dct:title>incarichi conferiti e autorizzati ai dipendenti dirigenti e non dirigenti</dct:title>
+    <dcat:landingPage rdf:resource="https://aocardarelli.portaleamministrazionetrasparente.it/pagina59:incarichi-conferiti-e-autorizzati-ai-dipendenti-dirigenti-e-non-dirigenti.html/"/>
+    <dct:description>Incarichi conferiti o autorizzati ai dipendenti dell'AORN Cardarelli, con dettagli su oggetto, durata e compenso.</dct:description>
+    <dct:identifier>AORN_063:incarichi-conferiti-e-autorizzati-ai-dipendenti-dirigenti-e-non-dirigenti</dct:identifier>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/MONTHLY"/>
+    <dcat:contactPoint rdf:resource="https://www.ospedalecardarelli.it/"/>
+    <dct:rightsHolder>
+      <dcatapit:Agent rdf:about="AORN_063">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>AORN_063</dct:identifier>
+        <foaf:name>AORN Antonio Cardarelli</foaf:name>
+      </dcatapit:Agent>
+    </dct:rightsHolder>
+    <dct:publisher>
+      <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>AORN_063</dct:identifier>
+        <foaf:name>AORN Antonio Cardarelli</foaf:name>
+      </dcatapit:Agent>
+    </dct:publisher>
+    <dct:subject>
+      <skos:Concept rdf:about="http://eurovoc.europa.eu/100230">
+        <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#subTheme"/>
+        <skos:prefLabel xml:lang="it">4026 gestione contabile</skos:prefLabel>
+      </skos:Concept>
+    </dct:subject>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-11-25</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-11-25</dct:issued>
+    <dcat:contactPoint rdf:resource="https://www.ospedalecardarelli.it/"/>
+    <dcat:keyword>Incarichi conferiti</dcat:keyword>
+    <dcat:keyword>Incarichi autorizzati</dcat:keyword>
+    <dcat:keyword>Trasparenza amministrativa</dcat:keyword>
+    <dcat:distribution rdf:resource="https://aocardarelli.portaleamministrazionetrasparente.it//incarichi-conferiti-e-autorizzati-ai-dipendenti-dirigenti-e-non-dirigenti/csv8"/>
+  </dcatapit:Dataset>
+  <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/ECON">
+    <skos:prefLabel>Economia e finanze</skos:prefLabel>
+  </skos:Concept>
+  <dcatapit:Dataset rdf:about="https://aocardarelli.portaleamministrazionetrasparente.it//patrimonio-immobiliare">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
+    <dct:license/>
+    <dct:title>patrimonio immobiliare</dct:title>
+    <dcat:landingPage rdf:resource="https://aocardarelli.portaleamministrazionetrasparente.it/pagina734:patrimonio-immobiliare.html/"/>
+    <dct:description>Patrimonio immobiliare dell'AORN Cardarelli, con dettagli su beni posseduti e destinazione d'uso.</dct:description>
+    <dct:identifier>AORN_063:patrimonio-immobiliare</dct:identifier>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/ANNUAL"/>
+    <dcat:contactPoint rdf:resource="https://www.ospedalecardarelli.it/"/>
+    <dct:rightsHolder>
+      <dcatapit:Agent rdf:about="AORN_063">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>AORN_063</dct:identifier>
+        <foaf:name>AORN Antonio Cardarelli</foaf:name>
+      </dcatapit:Agent>
+    </dct:rightsHolder>
+    <dct:publisher>
+      <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>AORN_063</dct:identifier>
+        <foaf:name>AORN Antonio Cardarelli</foaf:name>
+      </dcatapit:Agent>
+    </dct:publisher>
+    <dct:subject>
+      <skos:Concept rdf:about="http://eurovoc.europa.eu/100230">
+        <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#subTheme"/>
+        <skos:prefLabel xml:lang="it">4026 gestione contabile</skos:prefLabel>
+      </skos:Concept>
+    </dct:subject>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-11-25</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-11-25</dct:issued>
+    <dcat:contactPoint rdf:resource="https://www.ospedalecardarelli.it/"/>
+    <dcat:keyword>Patrimonio immobiliare</dcat:keyword>
+    <dcat:keyword>Beni posseduti</dcat:keyword>
+    <dcat:keyword>Trasparenza amministrativa</dcat:keyword>
+    <dcat:distribution rdf:resource="https://aocardarelli.portaleamministrazionetrasparente.it//patrimonio-immobiliare/csv9"/>
+  </dcatapit:Dataset>
+  <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/ECON">
+    <skos:prefLabel>Economia e finanze</skos:prefLabel>
+  </skos:Concept>
+  <dcatapit:Dataset rdf:about="https://aocardarelli.portaleamministrazionetrasparente.it//titolari-di-incarichi-dirigenziali-amministrativi-di-vertice">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
+    <dct:license/>
+    <dct:title>titolari di incarichi dirigenziali amministrativi di vertice</dct:title>
+    <dcat:landingPage rdf:resource="https://aocardarelli.portaleamministrazionetrasparente.it/pagina748:titolari-di-incarichi-dirigenziali-amministrativi-di-vertice.html/"/>
+    <dct:description>Titolari di incarichi dirigenziali di vertice all'AORN Cardarelli, con informazioni su ruolo e responsabilità.</dct:description>
+    <dct:identifier>AORN_063:titolari-di-incarichi-dirigenziali-amministrativi-di-vertice</dct:identifier>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/ANNUAL"/>
+    <dcat:contactPoint rdf:resource="https://www.ospedalecardarelli.it/"/>
+    <dct:rightsHolder>
+      <dcatapit:Agent rdf:about="AORN_063">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>AORN_063</dct:identifier>
+        <foaf:name>AORN Antonio Cardarelli</foaf:name>
+      </dcatapit:Agent>
+    </dct:rightsHolder>
+    <dct:publisher>
+      <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>AORN_063</dct:identifier>
+        <foaf:name>AORN Antonio Cardarelli</foaf:name>
+      </dcatapit:Agent>
+    </dct:publisher>
+    <dct:subject>
+      <skos:Concept rdf:about="http://eurovoc.europa.eu/100230">
+        <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#subTheme"/>
+        <skos:prefLabel xml:lang="it">4026 gestione contabile</skos:prefLabel>
+      </skos:Concept>
+    </dct:subject>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-11-25</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-11-25</dct:issued>
+    <dcat:contactPoint rdf:resource="https://www.ospedalecardarelli.it/"/>
+    <dcat:keyword>Incarichi dirigenziali</dcat:keyword>
+    <dcat:keyword>Vertice amministrativo</dcat:keyword>
+    <dcat:keyword>Trasparenza amministrativa</dcat:keyword>
+    <dcat:distribution rdf:resource="https://aocardarelli.portaleamministrazionetrasparente.it//titolari-di-incarichi-dirigenziali-amministrativi-di-vertice/csv10"/>
+  </dcatapit:Dataset>
+  <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/ECON">
+    <skos:prefLabel>Economia e finanze</skos:prefLabel>
+  </skos:Concept>
+  <dcatapit:Dataset rdf:about="https://aocardarelli.portaleamministrazionetrasparente.it//regolamenti">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
+    <dct:license/>
+    <dct:title>regolamenti</dct:title>
+    <dcat:landingPage rdf:resource="https://aocardarelli.portaleamministrazionetrasparente.it/pagina39:regolamenti.html/"/>
+    <dct:description>Regolamenti interni dell'AORN Cardarelli per l’organizzazione e la gestione aziendale, a garanzia di trasparenza.</dct:description>
+    <dct:identifier>AORN_063:regolamenti</dct:identifier>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/ANNUAL"/>
+    <dcat:contactPoint rdf:resource="https://www.ospedalecardarelli.it/"/>
+    <dct:rightsHolder>
+      <dcatapit:Agent rdf:about="AORN_063">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>AORN_063</dct:identifier>
+        <foaf:name>AORN Antonio Cardarelli</foaf:name>
+      </dcatapit:Agent>
+    </dct:rightsHolder>
+    <dct:publisher>
+      <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>AORN_063</dct:identifier>
+        <foaf:name>AORN Antonio Cardarelli</foaf:name>
+      </dcatapit:Agent>
+    </dct:publisher>
+    <dct:subject>
+      <skos:Concept rdf:about="http://eurovoc.europa.eu/100229">
+        <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#subTheme"/>
+        <skos:prefLabel xml:lang="it">4021 gestione amministrativa</skos:prefLabel>
+      </skos:Concept>
+    </dct:subject>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-11-25</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-11-25</dct:issued>
+    <dcat:contactPoint rdf:resource="https://www.ospedalecardarelli.it/"/>
+    <dcat:keyword>Regolamenti interni</dcat:keyword>
+    <dcat:keyword>Trasparenza amministrativa</dcat:keyword>
+    <dcat:keyword>Normative aziendali</dcat:keyword>
+    <dcat:distribution rdf:resource="https://aocardarelli.portaleamministrazionetrasparente.it//regolamenti/csv11"/>
+  </dcatapit:Dataset>
+  <dcatapit:Distribution rdf:about="https://aocardarelli.portaleamministrazionetrasparente.it//bandi-di-concorso/csv2">
+    <dcat:accessURL rdf:resource="https://aocardarelli.portaleamministrazionetrasparente.it/export%5Fopen%5Fdata%5Fcsv.php?id%5Fsezione=639&amp;id%5Fcriterio=382&amp;id%5Foggetto=22&amp;id%5Fente=381&amp;ricPost=1"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/publicdomain/zero/1.0/">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons CC0 1.0 Universale - Public Domain Dedication (CC0 1.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="CSV"/>
+    <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dct:description>File in formato CSV per l'interoperabilità</dct:description>
+    <dct:title>bandi di concorso CSV</dct:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </dcatapit:Distribution>
+  <dcatapit:Distribution rdf:about="https://aocardarelli.portaleamministrazionetrasparente.it//bandi-di-concorso-avvisi/csv3">
+    <dcat:accessURL rdf:resource="https://aocardarelli.portaleamministrazionetrasparente.it/export%5Fopen%5Fdata%5Fcsv.php?id%5Fsezione=806&amp;id%5Fcriterio=133&amp;id%5Foggetto=22&amp;id%5Fente=381&amp;ricPost=1"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/publicdomain/zero/1.0/">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons CC0 1.0 Universale - Public Domain Dedication (CC0 1.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="CSV"/>
+    <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dct:description>File in formato CSV per l'interoperabilità</dct:description>
+    <dct:title>bandi di concorso avvisi CSV</dct:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </dcatapit:Distribution>
+  <dcatapit:Distribution rdf:about="https://aocardarelli.portaleamministrazionetrasparente.it//bandi-di-concorso-esiti/csv4">
+    <dcat:accessURL rdf:resource="https://aocardarelli.portaleamministrazionetrasparente.it/export%5Fopen%5Fdata%5Fcsv.php?id%5Fsezione=807&amp;id%5Fcriterio=134&amp;id%5Foggetto=22&amp;id%5Fente=381&amp;ricPost=1"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/publicdomain/zero/1.0/">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons CC0 1.0 Universale - Public Domain Dedication (CC0 1.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="CSV"/>
+    <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dct:description>File in formato CSV per l'interoperabilità</dct:description>
+    <dct:title>bandi di concorso esiti CSV</dct:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </dcatapit:Distribution>
+  <dcatapit:Distribution rdf:about="https://aocardarelli.portaleamministrazionetrasparente.it//bilancio-preventivo-e-consuntivo/csv5">
+    <dcat:accessURL rdf:resource="https://aocardarelli.portaleamministrazionetrasparente.it/export%5Fopen%5Fdata%5Fcsv.php?id%5Fsezione=731&amp;id%5Fcriterio=85&amp;id%5Foggetto=29&amp;id%5Fente=381&amp;ricPost=1"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/publicdomain/zero/1.0/">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons CC0 1.0 Universale - Public Domain Dedication (CC0 1.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="CSV"/>
+    <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dct:description>File in formato CSV per l'interoperabilità</dct:description>
+    <dct:title>bilancio preventivo e consuntivo CSV</dct:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </dcatapit:Distribution>
+  <dcatapit:Distribution rdf:about="https://aocardarelli.portaleamministrazionetrasparente.it//concorsi-attivi/csv6">
+    <dcat:accessURL rdf:resource="https://aocardarelli.portaleamministrazionetrasparente.it/export%5Fopen%5Fdata%5Fcsv.php?id%5Fsezione=640&amp;id%5Fcriterio=135&amp;id%5Foggetto=22&amp;id%5Fente=381&amp;ricPost=1"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/publicdomain/zero/1.0/">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons CC0 1.0 Universale - Public Domain Dedication (CC0 1.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="CSV"/>
+    <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dct:description>File in formato CSV per l'interoperabilità</dct:description>
+    <dct:title>concorsi attivi CSV</dct:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </dcatapit:Distribution>
+  <dcatapit:Distribution rdf:about="https://aocardarelli.portaleamministrazionetrasparente.it//concorsi-scaduti/csv7">
+    <dcat:accessURL rdf:resource="https://aocardarelli.portaleamministrazionetrasparente.it/export%5Fopen%5Fdata%5Fcsv.php?id%5Fsezione=641&amp;id%5Fcriterio=64&amp;id%5Foggetto=22&amp;id%5Fente=381&amp;ricPost=1"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/publicdomain/zero/1.0/">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons CC0 1.0 Universale - Public Domain Dedication (CC0 1.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="CSV"/>
+    <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dct:description>File in formato CSV per l'interoperabilità</dct:description>
+    <dct:title>concorsi scaduti CSV</dct:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </dcatapit:Distribution>
+  <dcatapit:Distribution rdf:about="https://aocardarelli.portaleamministrazionetrasparente.it//incarichi-conferiti-e-autorizzati-ai-dipendenti-dirigenti-e-non-dirigenti/csv8">
+    <dcat:accessURL rdf:resource="https://aocardarelli.portaleamministrazionetrasparente.it/export%5Fopen%5Fdata%5Fcsv.php?id%5Fsezione=59&amp;id%5Fcriterio=47&amp;id%5Foggetto=4&amp;id%5Fente=381&amp;ricPost=1"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/publicdomain/zero/1.0/">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons CC0 1.0 Universale - Public Domain Dedication (CC0 1.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="CSV"/>
+    <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dct:description>File in formato CSV per l'interoperabilità</dct:description>
+    <dct:title>incarichi conferiti e autorizzati ai dipendenti CSV</dct:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </dcatapit:Distribution>
+  <dcatapit:Distribution rdf:about="https://aocardarelli.portaleamministrazionetrasparente.it//patrimonio-immobiliare/csv9">
+    <dcat:accessURL rdf:resource="https://aocardarelli.portaleamministrazionetrasparente.it/export%5Fopen%5Fdata%5Fcsv.php?id%5Fsezione=734&amp;id%5Fcriterio=193&amp;id%5Foggetto=55&amp;id%5Fente=381&amp;ricPost=1"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/publicdomain/zero/1.0/">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons CC0 1.0 Universale - Public Domain Dedication (CC0 1.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="CSV"/>
+    <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dct:description>File in formato CSV per l'interoperabilità</dct:description>
+    <dct:title>patrimonio immobiliare CSV</dct:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </dcatapit:Distribution>
+  <dcatapit:Distribution rdf:about="https://aocardarelli.portaleamministrazionetrasparente.it//titolari-di-incarichi-dirigenziali-amministrativi-di-vertice/csv10">
+    <dcat:accessURL rdf:resource="https://aocardarelli.portaleamministrazionetrasparente.it/export%5Fopen%5Fdata%5Fcsv.php?id%5Fsezione=748&amp;id%5Fcriterio=84&amp;id%5Foggetto=3&amp;id%5Fente=381&amp;ricPost=1"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/publicdomain/zero/1.0/">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons CC0 1.0 Universale - Public Domain Dedication (CC0 1.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="CSV"/>
+    <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dct:description>File in formato CSV per l'interoperabilità</dct:description>
+    <dct:title>titolari di incarichi dirigenziali amministrativi di vertice CSV</dct:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </dcatapit:Distribution>
+  <dcatapit:Distribution rdf:about="https://aocardarelli.portaleamministrazionetrasparente.it//regolamenti/csv11">
+    <dcat:accessURL rdf:resource="https://aocardarelli.portaleamministrazionetrasparente.it/export%5Fopen%5Fdata%5Fcsv.php?id%5Fsezione=39&amp;id%5Fcriterio=87&amp;id%5Foggetto=19&amp;id%5Fente=381&amp;ricPost=1"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/publicdomain/zero/1.0/">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons CC0 1.0 Universale - Public Domain Dedication (CC0 1.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="CSV"/>
+    <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dct:description>File in formato CSV per l'interoperabilità</dct:description>
+    <dct:title>regolamenti CSV</dct:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </dcatapit:Distribution>
+<dcatapit:Organization rdf:about="https://www.ospedalecardarelli.it/">
+  <rdf:type rdf:resource="vcard:Organization"/>
+  <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+  <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+  <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Organization"/>
+  <rdf:type rdf:resource="vcard:Kind"/>
+  <vcard:fn>AORN Antonio Cardarelli</vcard:fn>
+  <vcard:hasEmail rdf:resource="transizione.digitale@aocardarelli.it"/>
+  <vcard:hasTelephone/>
+  <vcard:hasURL rdf:resource="https://www.ospedalecardarelli.it/"/>
+</dcatapit:Organization>
+</rdf:RDF>
